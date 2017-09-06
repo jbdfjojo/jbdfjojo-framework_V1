@@ -1,0 +1,25 @@
+$primaryColor   : pink;
+$secondaryColor : grey;
+$red            : #B03060;
+$orange         : #FE9A76;
+$yellow         : #FFD700;
+$olive          : #32CD32;
+$green          : #151515;
+$teal           : #008080;
+$blue           : #fff0d3;
+$violet         : #EE82EE;
+$purple         : #B413EC;
+$pink           : #FF1493;
+$brown          : #A52A2A;
+$grey           : #A0A0A0;
+$black          : #191100;
+
+
+.formatCode{
+  background-color: $green;
+  color: $blue;
+  padding: 1%;
+  padding-left: 1%;
+  text-align: justify;
+  margin-left: 32%;
+}

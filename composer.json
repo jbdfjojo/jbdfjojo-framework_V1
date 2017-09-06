@@ -1,0 +1,26 @@
+{
+    "name": "jbdfjojo/jbdfjojo-framework",
+    "description": "framework personnel de jbdfjojo en cours de création",
+    "license": "jbdfjojo",
+    "authors": [
+        {
+            "name": "jbdfjojo",
+            "email": "jbdfjojo@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4" : {
+          "App\\": "App",
+          "Public\\": "Public",
+          "Lib\\": "Lib",
+          "Config\\": "Config"
+        }
+    },
+    "require": {
+      "components/jquery": "^3.1",
+      "contao-components/compass": "0.12.2.1",
+      "twbs/bootstrap": "^3.3",
+      "semantic/ui": "^2.2",
+      "michelf/php-markdown": "^1.7"
+    }
+}
